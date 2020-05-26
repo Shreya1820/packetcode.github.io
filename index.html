@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>WEB DEVELOPMENT WEBINAR</title>
+
+<head>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <meta rel="author" content="name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body id="web">
+    <div class="header"><img class="imagedisp"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/1200px-IEEE_logo.svg.png">
+    </div>
+    <section class="navbar">
+        <a href="http://cis.ieee.org"><b>IEEE CSI</b></a>
+        <a href="http://computer.org"><b>IEEE CS</b></a>
+        <a href="index.html"><b>HOME</b></a>
+        <a href="http://cis.ieee.org"><b>Connect with us</b></a>
+    </section>
+
+    <div>
+        <section class="row">
+            <section class="side">
+                <h2>About some current technologies</h2>
+                <h5>Artificial Intelligence</h5>
+
+                <div>
+                    <img id="imagespart" img
+                        src="https://www.analyticsinsight.net/wp-content/uploads/2020/02/Savvycom-AI-Lab.jpg"
+                        alt="first image">
+                    <p>
+                        Artificial intelligence (AI) is wide-ranging branch of computer science
+                        concerned with building smart machines capable of performing tasks that
+                        typically require human intelligence. AI is an interdisciplinary science
+                        with multiple approaches,but advancements in machine learning and deep
+                        learning are creating a paradigm shift in virtually every sector of the tech industry.
+                    </p>
+                </div>
+                <div>
+                    <img id="imagespart" img
+                        src="https://images.idgesg.net/images/article/2019/02/iot_internet_of_things_by_jackie_niam_gettyimages-996958260_2400x1600-100788446-large.jpg"
+                        alt="second image">
+                    <p>
+                        The internet of things, or IoT, is a system of interrelated computing devices, mechanical and
+                        digital machines, objects, animals or people that are provided with unique identifiers (UIDs)
+                        and the ability to transfer data over a network without requiring human-to-human or
+                        human-to-computer interaction.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="main">
+                <h2>COMPANIES</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Founder</td>
+                            <td>CEO</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>APPLE</td>
+                            <td>Steve Jobs<br>
+                                Steve Wozniak
+                            </td>
+                            <td>Tim Cook</td>
+                        </tr>
+                        <tr>
+                            <td>GOOGLE</td>
+                            <td>Larry Page<br>
+                                Sergey Brin
+                            </td>
+                            <td>Sundar Pichai</td>
+                        </tr>
+                        <tr>
+                            <td>MICROSOFT</td>
+                            <td>Bill Gates<br>
+                                Paule Allen
+                            </td>
+                            <td>Satya Nadella</td>
+                        </tr>
+                        <tr>
+                            <td>CISCO</td>
+                            <td>Sandy Lerner<br>
+                                Leonard Bosack
+                            </td>
+                            <td>Chuck Robbins</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+                <section class="form">
+                    <form id="login" action="#">
+                        <!-- <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" placeholder="first name" required>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" placeholder="last name">
+                        <label for="email">EMail ID:</label>
+                        <input type="email" name="email" id="email" placeholder="email" required>
+                        <label for="pass">Password</label>
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                        <button type="submit">SUBMIT</button> -->
+
+                        <p> First Name</p>
+            
+                        <label for="fname"></label>
+                        <input type="text" id="fname" id="fname" placeholder="first name" required>
+                        <br>
+                        <p>Last Name</p>
+                        <label for="lname"><br></label>
+                        <input type="text" id="lname" id="lname" placeholder="last name">
+                         <br>
+                         <p>Email</p>
+                        <label for="email"></label>
+                        <input type="email" id="email" id="email" placeholder="email" required>
+                        <br>
+                        <p>Password</p>
+                        <label for="pass"></label>
+                        <input type="password" id="password" id="password" placeholder="password" required>
+                        <br>
+                        <br>
+                        <br>
+                        <input class="btn" type="submit" value="Submit">
+                    </form>
+                    <br>
+                    <br>
+                </section>
+                <div class ="bottom">
+                <h3> Thank you for attending the webinar!!!</h3>
+                    
+                <h3>Ordered List</h3>
+                 <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                 </ol>   
+
+                 <h3>Unordered List </h3>
+                 <ul>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>JS</li>
+                 </ul>
+                 <button onclick="colorChange()"  class="btn">Click Me to change color!</a></button>
+                 </div>
+                </section>
+        </section>
+        <!-- this is a comment-->
+       
+
+    </div>
+
+<footer class="footer">
+    <h2><a href="http://www.ieee.org/">@www.ieee.org</a></h2>
+   <br>
+   <h3>phone:7258900298</h3> 
+
+</footer>
+
+<!-- <script>
+    console.log('Hello World');
+</script> -->  
+
+<script>
+var i=1;
+        function colorChange()
+        {
+        if (i%2!=0){
+        document.querySelector(".main").style.backgroundColor="#99ccff";
+        }
+        else
+        {
+        document.querySelector(".main").style.backgroundColor="white";
+        }
+        i++;
+        }
+    </script>
+
+<script src=".script.js"></script>
+</body>
+
+</html>

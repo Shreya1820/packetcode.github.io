@@ -1,0 +1,108 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.imagedisp{
+
+    width: 50%;
+    height: 5%;
+    
+}
+
+.navbar a{
+    float:left;
+    padding:10px 10px;
+    color:white;
+    text-decoration:none;
+    
+}
+
+.navbar {
+    overflow:hidden;
+    background-color:blue;
+    
+}
+.navbar a:hover{
+
+    color:yellowgreen;
+    background-color:white;
+}
+
+.header{
+    padding: 40px;
+    background-image:url( https://img.freepik.com/free-vector/white-blurred-futuristic-technology-background_23-2148402775.jpg?size=626&ext=jpg);
+    text-align: center;
+}
+
+.side{
+    flex:20%;
+    padding: 20px;
+    background-color:#dddddd;
+}
+.main{
+    flex:60%;
+    padding: 20px;
+    background-color:white;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#imagespart{
+    width: 80%;
+    height: 50%;
+}
+
+table{
+    font-family:'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    width:100%;
+}
+td,th{
+
+    border:1px solid #dddddd;
+    padding: 8px;
+
+}
+tr{
+    background-color:lightcyan;
+}
+tr:nth-child(even){
+
+    padding-top:50px;
+    background-color:#dddddd;
+}
+
+.form{
+
+    padding-top:50px;
+    text-align:center;
+}
+
+input{
+    border:1px solid black;
+    border-color:grey; 
+    width: 300px;
+    height:30px;
+    border-radius:5px;
+}
+
+.btn{
+    padding:10px;
+    border:1px groove cyan;
+    background-color:white;
+    border-radius:5px;
+    width:200px;
+    height:30px;
+}
+
+.bottom{
+    text-align:center;
+}
+.footer{
+    padding:20px;
+    text-align:center;
+    background-color:lightblue;
+    
+    width:100%;
+}
